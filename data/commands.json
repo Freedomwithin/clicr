@@ -1,0 +1,446 @@
+[
+  {
+    "name": "git commit",
+    "description": "Commit changes",
+    "usage": "git commit -m 'message'",
+    "language": "git"
+  },
+  {
+    "name": "cargo build",
+    "description": "Build your Rust project",
+    "usage": "cargo build",
+    "language": "cargo"
+  },
+  {
+    "name": "ls",
+    "description": "List directory contents",
+    "usage": "ls -l",
+    "language": "bash"
+  },
+  {
+    "name": "mkdir",
+    "description": "Create a new directory",
+    "usage": "mkdir new_directory",
+    "language": "bash"
+  },
+  {
+    "name": "cargo run",
+    "description": "Build and run your Rust project",
+    "usage": "cargo run",
+    "language": "rust"
+  },
+  {
+    "name": "cargo test",
+    "description": "Run your Rust project's tests",
+    "usage": "cargo test",
+    "language": "rust"
+  },
+  {
+    "name": "rustc",
+    "description": "Compile a Rust file",
+    "usage": "rustc main.rs",
+    "language": "rust"
+  },
+  {
+    "name": "cargo doc",
+    "description": "Generate documentation for your Rust project",
+    "usage": "cargo doc --open",
+    "language": "rust"
+  },
+  {
+    "name": "cd",
+    "description": "Change directory",
+    "usage": "cd <directory>",
+    "language": "bash"
+  },
+  {
+    "name": "pwd",
+    "description": "Print working directory",
+    "usage": "pwd",
+    "language": "bash"
+  },
+  {
+    "name": "rmdir",
+    "description": "Remove a directory",
+    "usage": "rmdir <directory>",
+    "language": "bash"
+  },
+  {
+    "name": "touch",
+    "description": "Create an empty file",
+    "usage": "touch <file>",
+    "language": "bash"
+  },
+  {
+    "name": "rm",
+    "description": "Remove a file",
+    "usage": "rm <file>",
+    "language": "bash"
+  },
+  {
+    "name": "cp",
+    "description": "Copy files and directories",
+    "usage": "cp <source> <destination>",
+    "language": "bash"
+  },
+  {
+    "name": "mv",
+    "description": "Move or rename files and directories",
+    "usage": "mv <source> <destination>",
+    "language": "bash"
+  },
+  {
+    "name": "cat",
+    "description": "Concatenate and print files",
+    "usage": "cat <file>",
+    "language": "bash"
+  },
+  {
+    "name": "less",
+    "description": "View files one page at a time",
+    "usage": "less <file>",
+    "language": "bash"
+  },
+  {
+    "name": "head",
+    "description": "Display the first few lines of a file",
+    "usage": "head <file>",
+    "language": "bash"
+  },
+  {
+    "name": "tail",
+    "description": "Display the last few lines of a file",
+    "usage": "tail <file>",
+    "language": "bash"
+  },
+  {
+    "name": "grep",
+    "description": "Search for a pattern in files",
+    "usage": "grep <pattern> <file>",
+    "language": "bash"
+  },
+  {
+    "name": "find",
+    "description": "Locate files based on criteria",
+    "usage": "find <directory> -name <file>",
+    "language": "bash"
+  },
+  {
+    "name": "chmod",
+    "description": "Change file permissions",
+    "usage": "chmod <permissions> <file>",
+    "language": "bash"
+  },
+  {
+    "name": "chown",
+    "description": "Change file ownership",
+    "usage": "chown <user> <file>",
+    "language": "bash"
+  },
+  {
+    "name": "sudo",
+    "description": "Execute a command as the superuser",
+    "usage": "sudo <command>",
+    "language": "bash"
+  },
+  {
+    "name": "apt",
+    "description": "Package manager (Debian/Ubuntu)",
+    "usage": "apt install <package>",
+    "language": "bash"
+  },
+  {
+    "name": "dnf",
+    "description": "Package manager (Fedora/CentOS)",
+    "usage": "dnf install <package>",
+    "language": "bash"
+  },
+  {
+    "name": "brew",
+    "description": "Package manager (macOS)",
+    "usage": "brew install <package>",
+    "language": "bash"
+  },
+  {
+    "name": "git init",
+    "description": "Initialize a new Git repository",
+    "usage": "git init",
+    "language": "git"
+  },
+  {
+    "name": "git clone",
+    "description": "Clone a repository",
+    "usage": "git clone <repository>",
+    "language": "git"
+  },
+  {
+    "name": "git add",
+    "description": "Stage changes for commit",
+    "usage": "git add <file>",
+    "language": "git"
+  },
+  {
+    "name": "git status",
+    "description": "Check the status of the repository",
+    "usage": "git status",
+    "language": "git"
+  },
+  {
+    "name": "git diff",
+    "description": "View changes",
+    "usage": "git diff",
+    "language": "git"
+  },
+  {
+    "name": "git log",
+    "description": "View commit history",
+    "usage": "git log",
+    "language": "git"
+  },
+  {
+    "name": "git branch",
+    "description": "Manage branches",
+    "usage": "git branch",
+    "language": "git"
+  },
+  {
+    "name": "git checkout",
+    "description": "Switch branches",
+    "usage": "git checkout <branch>",
+    "language": "git"
+  },
+  {
+    "name": "git merge",
+    "description": "Merge branches",
+    "usage": "git merge <branch>",
+    "language": "git"
+  },
+  {
+    "name": "git pull",
+    "description": "Fetch and merge changes from a remote repository",
+    "usage": "git pull <remote>",
+    "language": "git"
+  },
+  {
+    "name": "git push",
+    "description": "Push changes to a remote repository",
+    "usage": "git push <remote>",
+    "language": "git"
+  },
+  {
+    "name": "git remote",
+    "description": "Manage remote repositories",
+    "usage": "git remote add <name> <url>",
+    "language": "git"
+  },
+  {
+    "name": "cargo new",
+    "description": "Create a new Rust project",
+    "usage": "cargo new <project>",
+    "language": "rust"
+  },
+  {
+    "name": "cargo check",
+    "description": "Check the code for errors",
+    "usage": "cargo check",
+    "language": "rust"
+  },
+  {
+    "name": "cargo publish",
+    "description": "Publish a crate to crates.io",
+    "usage": "cargo publish",
+    "language": "rust"
+  },
+  {
+    "name": "cargo update",
+    "description": "Update dependencies",
+    "usage": "cargo update",
+    "language": "rust"
+  },
+  {
+    "name": "python",
+    "description": "Run a Python script",
+    "usage": "python <script.py>",
+    "language": "python"
+  },
+  {
+    "name": "pip install",
+    "description": "Install Python packages",
+    "usage": "pip install <package>",
+    "language": "python"
+  },
+  {
+    "name": "pip uninstall",
+    "description": "Uninstall Python packages",
+    "usage": "pip uninstall <package>",
+    "language": "python"
+  },
+  {
+    "name": "pip list",
+    "description": "List installed packages",
+    "usage": "pip list",
+    "language": "python"
+  },
+  {
+    "name": "node",
+    "description": "Run a JavaScript file",
+    "usage": "node <script.js>",
+    "language": "javascript"
+  },
+  {
+    "name": "npm install",
+    "description": "Install Node.js packages",
+    "usage": "npm install <package>",
+    "language": "javascript"
+  },
+  {
+    "name": "npm uninstall",
+    "description": "Uninstall Node.js packages",
+    "usage": "npm uninstall <package>",
+    "language": "javascript"
+  },
+  {
+    "name": "npm list",
+    "description": "List installed packages",
+    "usage": "npm list",
+    "language": "javascript"
+  },
+  {
+    "name": "docker build",
+    "description": "Build a Docker image",
+    "usage": "docker build -t <image> .",
+    "language": "docker"
+  },
+  {
+    "name": "docker run",
+    "description": "Run a Docker container",
+    "usage": "docker run <image>",
+    "language": "docker"
+  },
+  {
+    "name": "docker ps",
+    "description": "List running containers",
+    "usage": "docker ps",
+    "language": "docker"
+  },
+  {
+    "name": "docker stop",
+    "description": "Stop a container",
+    "usage": "docker stop <container>",
+    "language": "docker"
+  },
+  {
+    "name": "docker rm",
+    "description": "Remove a container",
+    "usage": "docker rm <container>",
+    "language": "docker"
+  },
+  {
+    "name": "docker images",
+    "description": "List Docker images",
+    "usage": "docker images",
+    "language": "docker"
+  },
+  {
+    "name": "docker pull",
+    "description": "Pull an image from a registry",
+    "usage": "docker pull <image>",
+    "language": "docker"
+  },
+  {
+    "name": "docker push",
+    "description": "Push an image to a registry",
+    "usage": "docker push <image>",
+    "language": "docker"
+  },
+  {
+    "name": "SELECT",
+    "description": "Retrieve data from a table",
+    "usage": "SELECT * FROM table",
+    "language": "sql"
+  },
+  {
+    "name": "INSERT",
+    "description": "Insert data into a table",
+    "usage": "INSERT INTO table (column1, column2) VALUES (value1, value2)",
+    "language": "sql"
+  },
+  {
+    "name": "UPDATE",
+    "description": "Update data in a table",
+    "usage": "UPDATE table SET column1 = value1 WHERE condition",
+    "language": "sql"
+  },
+  {
+    "name": "DELETE",
+    "description": "Delete data from a table",
+    "usage": "DELETE FROM table WHERE condition",
+    "language": "sql"
+  },
+  {
+    "name": "CREATE TABLE",
+    "description": "Create a new table",
+    "usage": "CREATE TABLE table (column1 datatype, column2 datatype)",
+    "language": "sql"
+  },
+  {
+    "name": "ALTER TABLE",
+    "description": "Modify an existing table",
+    "usage": "ALTER TABLE table ADD column datatype",
+    "language": "sql"
+  },
+  {
+    "name": "DROP TABLE",
+    "description": "Delete a table",
+    "usage": "DROP TABLE table",
+    "language": "sql"
+  },
+  {
+    "name": "vim",
+    "description": "Text editor",
+    "usage": "vim <file>",
+    "language": "vim"
+  },
+  {
+    "name": "nano",
+    "description": "Text editor",
+    "usage": "nano <file>",
+    "language": "nano"
+  },
+  {
+    "name": "tmux",
+    "description": "Terminal multiplexer",
+    "usage": "tmux",
+    "language": "tmux"
+  },
+  {
+    "name": "screen",
+    "description": "Terminal multiplexer",
+    "usage": "screen",
+    "language": "screen"
+  },
+  {
+    "name": "ssh",
+    "description": "Secure Shell",
+    "usage": "ssh <user>@<host>",
+    "language": "ssh"
+  },
+  {
+    "name": "curl",
+    "description": "Download files from the internet",
+    "usage": "curl <url>",
+    "language": "curl"
+  },
+  {
+    "name": "wget",
+    "description": "Download files from the internet",
+    "usage": "wget <url>",
+    "language": "wget"
+  },
+  {
+    "name": "ping",
+    "description": "Test network connectivity",
+    "usage": "ping <host>",
+    "language": "ping"
+  }
+]

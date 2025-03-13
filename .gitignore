@@ -1,0 +1,15 @@
+# Rust build artifacts
+target/
+Cargo.lock
+
+# macOS system files
+.DS_Store
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Binary executables and app bundles
+Clickr.app/
+clickr_Gui.command
+run_clicr.command
