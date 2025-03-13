@@ -42,7 +42,7 @@ Or visit rustup.rs for installation instructions.
 
     ```bash
     #!/bin/bash
-    cd "/clicr"
+    cd clicr
     cargo run
     ```
 
