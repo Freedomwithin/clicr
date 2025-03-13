@@ -42,10 +42,8 @@ Or visit rustup.rs for installation instructions.
 
     ```bash
     #!/bin/bash
-cd "/clicr"
-
-# Run the clickr application using cargo run
-cargo run
+    cd "/clicr"
+    cargo run
     ```
 
     Then, make the script executable:
